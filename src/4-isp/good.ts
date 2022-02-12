@@ -14,10 +14,11 @@ export interface Dancer {
   dance(): void;
 }
 
-export class Goblin implements Shooter, Dancer {
+export class Troll implements Shooter, Dancer {
   public shoot(): void {
     // some method
   }
+
   public dance(): void {
     // some method
   }

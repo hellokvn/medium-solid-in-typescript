@@ -5,16 +5,19 @@ export interface Character {
   dance(): void;
 }
 
-export class Goblin implements Character {
+export class Troll implements Character {
   public shoot(): void {
     // some method
   }
+
   public swim(): void {
-    // a goblin can't swim
+    // a troll can't swim
   }
+
   public talk(): void {
-    // a goblin can't talk
+    // a troll can't talk
   }
+
   public dance(): void {
     // some method
   }

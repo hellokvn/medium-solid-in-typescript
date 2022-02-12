@@ -1,5 +1,5 @@
 export interface Developer {
-  develop: () => void;
+  develop(): void;
 }
 
 export class FrontendDeveloper implements Developer {
