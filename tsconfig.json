@@ -9,12 +9,8 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"]
-    },
+    "baseUrl": "./",
     "typeRoots": ["./node_modules/@types"],
-    "types": ["node"],
     "incremental": true,
     "skipLibCheck": true,
     "resolveJsonModule": true
