@@ -5,7 +5,7 @@ export class FrontendDeveloper {
 }
 
 export class BackendDeveloper {
-  public writeJavaScriptCode(): void {
+  public writeTypeScriptCode(): void {
     // some method
   }
 }
@@ -21,6 +21,6 @@ export class SoftwareProject {
 
   public createProject(): void {
     this.frontendDeveloper.writeHtmlCode();
-    this.backendDeveloper.writeJavaScriptCode();
+    this.backendDeveloper.writeTypeScriptCode();
   }
 }

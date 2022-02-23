@@ -14,10 +14,10 @@ export class FrontendDeveloper implements Developer {
 
 export class BackendDeveloper implements Developer {
   public develop(): void {
-    this.writeJavaScriptCode();
+    this.writeTypeScriptCode();
   }
 
-  private writeJavaScriptCode(): void {
+  private writeTypeScriptCode(): void {
     // some method
   }
 }
