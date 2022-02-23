@@ -16,7 +16,7 @@ export class Rectangle implements Shape {
   }
 }
 
-export class Circle {
+export class Circle implements Shape {
   public radius: number;
 
   constructor(radius: number) {
