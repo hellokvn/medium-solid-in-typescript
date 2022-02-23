@@ -7,7 +7,7 @@ export class FrontendDeveloper implements Developer {
     this.writeHtmlCode();
   }
 
-  public writeHtmlCode(): void {
+  private writeHtmlCode(): void {
     // some method
   }
 }
@@ -17,7 +17,7 @@ export class BackendDeveloper implements Developer {
     this.writeJavaScriptCode();
   }
 
-  public writeJavaScriptCode(): void {
+  private writeJavaScriptCode(): void {
     // some method
   }
 }
