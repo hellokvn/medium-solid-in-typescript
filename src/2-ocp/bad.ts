@@ -7,6 +7,7 @@ export class Rectangle {
     this.height = height;
   }
 }
+
 export class Circle {
   public radius: number;
 
